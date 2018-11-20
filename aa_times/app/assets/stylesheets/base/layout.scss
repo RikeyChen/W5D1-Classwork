@@ -6,26 +6,36 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+  margin: 0 auto;
+  font-family: $serif;
+  font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: $dark-blue;
+	border-color: $gray;
+	color: $lightest-gray;
+	font-weight: 600;
+	padding: 5px;
+	border-radius: 2px;
+	transition: border-color background-color;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 8px;
+	text-align: center;
 }
 
+// $serif: georgia,"times new roman",times,serif;
+// $sans-serif: arial, helvetica, sans-serif;
+
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $darkest-blue;
+	border-color: $dark-gray;
+}
+
+header {
+  border: 1px solid red;
 }
 
 /*

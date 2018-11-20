@@ -32,6 +32,7 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+  height: 60px;
 }
 
 .masthead-links {
@@ -42,9 +43,10 @@
 	margin-bottom: 10px;
 }
 
-.masthead-links li {
+.masthead-links li, {
 	margin-left: 10px;
-	border-right: 1px solid $light-gray;
+  border-left: solid $light-gray 1px;
+  padding-left: 10px;
 }
 
 .masthead-links button {
@@ -52,18 +54,17 @@
 	padding: 0px;
 	color: #000;
 	font-weight: normal;
-	border: none;
+}
+
+
+.masthead-links li:first-child {
+  border-left: none;
 }
 
 .masthead-links button:hover {
 	background-color: $lightest-gray;
 }
 
-.masthead-links a,
-.masthead-links button, 
-.masthead-links time {
-	margin-right: 10px;
-}
 
 .masthead-links i {
 	margin-right: 5px;
